@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="#" class="logo__link">
+          <img class="logo" src="images/weather-logo.png" alt="Логотип">
+        </a>
+        <h1 class="title">
+          Погода
+        </h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="weather__wrapper">
+    <div class="container">
+      <div class="weather__inner">
+        <div class="weather__input">
+          <input class="input" type="text" placeholder="Введите название города" required>
+          <button type="button" class="btn">Узнать</button>
+          <p class="none__input">
+            Введите название города
+          </p>
+          <p class="error__input">
+            Я не знаю такого города
+          </p>
+        </div>
+        <div class="weather__card-inner">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
